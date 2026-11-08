@@ -1,0 +1,16 @@
+{
+  "cpu_count": 8,
+  "protocol": "20 warm-up + 100 timed, batch size 1",
+  "eager": {
+    "mean_ms_per_image": 173.918,
+    "std_ms": 13.269
+  },
+  "graph_tf_function": {
+    "mean_ms_per_image": 36.747,
+    "std_ms": 6.631
+  },
+  "predict": {
+    "mean_ms_per_image": 100.096,
+    "std_ms": 11.064
+  }
+}

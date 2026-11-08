@@ -1,0 +1,22 @@
+{
+  "seed_id": "AliOuici2026",
+  "seed_int": 442183739,
+  "epochs": 50,
+  "patience": 5,
+  "batch_size": 32,
+  "input_size": [
+    224,
+    224
+  ],
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "binary_crossentropy",
+  "head": "GAP -> Dense(128, relu) -> Dropout(0.3) -> Dense(1, sigmoid)",
+  "base": "MobileNetV2 (ImageNet, frozen)",
+  "preprocessing": "preprocess_input (mode tf, [-1, 1])",
+  "threshold": 0.5,
+  "class_order": [
+    "bad",
+    "good"
+  ]
+}
