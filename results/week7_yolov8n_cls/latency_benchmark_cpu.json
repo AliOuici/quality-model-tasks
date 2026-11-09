@@ -1,0 +1,6 @@
+{
+  "mean_ms_per_image": 46.017,
+  "std_ms": 4.217,
+  "device": "CPU",
+  "protocol": "forward only, batch 1, 640x640, 20 warm-up + 100 timed"
+}
