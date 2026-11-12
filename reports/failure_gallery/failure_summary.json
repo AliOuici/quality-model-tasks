@@ -1,0 +1,182 @@
+{
+  "MobileNetV2": {
+    "total_errors": 2,
+    "defect_breakdown": {
+      "none": 2
+    },
+    "dominant_defect": "none",
+    "meets_min_5": false,
+    "errors": [
+      {
+        "file": "true-good__pred-bad__good_passport_131_v2.jpg",
+        "true": "good",
+        "pred": "bad",
+        "defect": "none"
+      },
+      {
+        "file": "true-good__pred-bad__good_passport_132_v3.jpg",
+        "true": "good",
+        "pred": "bad",
+        "defect": "none"
+      }
+    ]
+  },
+  "YOLOv8n-cls": {
+    "total_errors": 8,
+    "defect_breakdown": {
+      "exposure": 3,
+      "glare": 4,
+      "occlusion": 1
+    },
+    "dominant_defect": "glare",
+    "meets_min_5": true,
+    "errors": [
+      {
+        "file": "true-bad__pred-good__bad_inn_exposure_160_v1.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "exposure"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_exposure_245_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "exposure"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_exposure_285_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "exposure"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_122_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_152_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_162_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_297_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_occlusion_244_v1.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "occlusion"
+      }
+    ]
+  },
+  "YOLOv8s-cls": {
+    "total_errors": 7,
+    "defect_breakdown": {
+      "glare": 4,
+      "skew": 1,
+      "exposure": 2
+    },
+    "dominant_defect": "glare",
+    "meets_min_5": true,
+    "errors": [
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_122_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_152_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_162_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_297_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_skew_243_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "skew"
+      },
+      {
+        "file": "true-bad__pred-good__bad_passport_exposure_110_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "exposure"
+      },
+      {
+        "file": "true-bad__pred-good__bad_passport_exposure_120_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "exposure"
+      }
+    ]
+  },
+  "EfficientNetB0": {
+    "total_errors": 4,
+    "defect_breakdown": {
+      "glare": 4
+    },
+    "dominant_defect": "glare",
+    "meets_min_5": false,
+    "errors": [
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_122_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_152_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_inn_glare_162_v3.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      },
+      {
+        "file": "true-bad__pred-good__bad_passport_glare_257_v2.jpg",
+        "true": "bad",
+        "pred": "good",
+        "defect": "glare"
+      }
+    ]
+  },
+  "_overall": {
+    "defect_counts_all_models": {
+      "none": 2,
+      "exposure": 5,
+      "glare": 12,
+      "occlusion": 1,
+      "skew": 1
+    },
+    "hardest_defect_overall": "glare"
+  }
+}
